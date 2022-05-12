@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 {
+    width: 1920px;
+    height: 69px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.main-text{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: large;
+    color: white;
+    display: block;
+    float: left;
+}
+.portfol{
+    color: white;
+    text-decoration: none;
+}
+.buttons1 {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 20px;
+    gap: 10px;
+}
+.pro-text {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: solid red 2px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    background: linear-gradient(to top, red 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.pro-text:hover{
+    border: 2px solid black;
+    background-position: bottom left;
+    color: #fff;
+}
+.cv-text{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid red 2px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    background: linear-gradient(to top, red 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.cv-text:hover{
+    border: 2px solid black;
+    background-position: bottom left;
+    color: #fff;
+}
+.boc {
+    width: 1820px;
+    height: 696px;
+    background-color: black;
+    border: solid red 2px;
+    border-radius: 20px ;
+}
+.about-me {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.description{
+    color: white;
+    font-size: 40px;
+    width: 666px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.img {
+   display: flex;
+   gap: 656px;
+}
+.github{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid red 2px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: 2px solid red;
+    background: linear-gradient(to top, red 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.github:hover{
+    border: 2px solid black;
+    background-position: bottom left;
+    color: #fff;
+}
+.github2{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+/* projektid */
+.projektid1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.projekt-kasts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shrek{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sh-text{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.shrek-img1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.shrek-img{
+    height: 165px;
+}
+.text-s{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.nuphud{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.sgithub {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    background: linear-gradient(to top, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.sgithub:hover{
+    border: 2px solid white;
+    background-position: bottom left;
+    color: #fff;
+}
+.sfigma {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    background: linear-gradient(to top, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.sfigma:hover{
+    border: 2px solid white;
+    background-position: bottom left;
+    color: #fff;
+}
+.arduino{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.arh-text{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.ard-img1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+.ard-img{
+    height: 140px;
+}
+.ard-p{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.sadam{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sadamh-tekst{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.sadam1-img{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.sadam-img{
+    height: 165px;
+}
+.text-sadam{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+/*CV*/
+.cv{
+    display: flex;
+    justify-content: center;
+}
