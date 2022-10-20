@@ -32,6 +32,7 @@
     padding-right: 20px;
     padding-top: 20px;
     gap: 10px;
+    width: 1300px;
 }
 .pro-text {
     text-decoration: none;
@@ -72,7 +73,7 @@
     color: #fff;
 }
 .boc {
-    width: 1820px;
+    width: 1400px;
     height: 696px;
     background-color: black;
     border: solid red 2px;
@@ -93,7 +94,10 @@
 }
 .img {
    display: flex;
-   gap: 656px;
+   gap: 200px;
+}
+.img2{
+    
 }
 .github{
     text-decoration: none;
